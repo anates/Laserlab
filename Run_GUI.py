@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Fri Feb 22 10:35:01 2019
@@ -7,6 +7,9 @@ Created on Fri Feb 22 10:35:01 2019
 """
 
 import os, sys, serial, time, numpy, configparser, itertools, h5py
+
+from PyQt5 import QtGui
+
 import pyqtgraph as pg
 import pyqtgraph.exporters
 
